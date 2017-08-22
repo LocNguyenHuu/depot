@@ -1,0 +1,20 @@
+development:
+   adapter: postgresql
+   encoding: unicode
+   database: depot_dev
+   schema_search_path: public
+   pool: 10
+   timeout: 5000
+   host: localhost
+   username: locnguyen
+   password: asus341623808
+
+test:
+  adapter: postgresql
+  encoding: unicode
+  database: depot_test
+  schema_search_path: public
+  pool: 8
+  host: localhost
+  username: locnguyen
+  password: asus341623808
